@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<link rel="import" href="bower_components/polymer-${1}/polymer-${1}.html">
+<link rel="import" href="${1:bower_components}/polymer-${2}/polymer-${2}.html">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ipe</tabTrigger>
