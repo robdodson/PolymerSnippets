@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<template$1>$0</template>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>template</description>
+</snippet>

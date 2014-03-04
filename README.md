@@ -59,7 +59,12 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 
 ## Web Components
 
-### [imp] html import
+### [tm] template
+```html
+<template$1>$0</template>
+```
+
+### [hi] html import
 
 ```html
 <link rel="import" href="${0}">
