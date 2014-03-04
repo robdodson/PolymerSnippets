@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+var ${3:tmpl} = document.querySelector('${4:template}');
+
+var ${1:WidgetProto} = Object.create(HTMLElement.prototype);
+
+${1:WidgetProto}.createdCallback = function() {
+  var root = this.createShadowRoot();
+  root.appendChild(${3:tmpl}.content.cloneNode(true));
+};
+
+var ${2:Widget} = document.register('my-widget', {
+  prototype: ${1:WidgetProto}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ce</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
