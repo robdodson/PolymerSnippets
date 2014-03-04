@@ -12,7 +12,7 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 </polymer-element>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>pe</tabTrigger>
+	<tabTrigger>pen</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 	<description>polymer element noscript</description>
