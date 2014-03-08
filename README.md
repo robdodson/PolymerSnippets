@@ -116,6 +116,10 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 polyfill-next-selector { content: '${1::host > .foo}'; }$0
 ```
 
+## What about Emmet?
+
+In order to play nice with Emmet I've included a `Emmet.sublime-settings` file which will enable the use of Shadow DOM CSS selectors. If this causes weirdness please file an issue.
+
 ## Contributing
 
 1. Fork it!
