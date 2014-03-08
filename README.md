@@ -113,7 +113,7 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 
 ### [pf] polyfill-next-selector
 ```css
-polyfill-next-selector { content: ''; }
+polyfill-next-selector { content: '${1::host > .foo}'; }$0
 ```
 
 ## Contributing
