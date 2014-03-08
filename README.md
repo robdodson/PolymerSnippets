@@ -87,6 +87,35 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 });
 ```
 
+### [sh] /shadow/
+```css
+/shadow/ ${2:target} {
+  $0
+}
+```
+
+### [sd] /shadow-deep/
+```css
+/shadow-deep/ ${2:target} {
+  $0
+}
+```
+
+### [ho] :host
+```css
+:host$0
+```
+
+### [an] :ancestor()
+```css
+:ancestor($0)
+```
+
+### [pf] polyfill-next-selector
+```css
+polyfill-next-selector { content: ''; }
+```
+
 ## Contributing
 
 1. Fork it!

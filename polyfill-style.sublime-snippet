@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+polyfill-next-selector { content: '${1::host > .foo}'; }$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css, source.less, source.scss, source.stylus</scope>
+	<description>polyfill-next-selector</description>
+</snippet>
