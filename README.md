@@ -45,13 +45,13 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 </polymer-element>
 ```
 
-### [ipe] import polymer-element
+### [hic] html import core-element
 
 ```html
-<link rel="import" href="${1:bower_components}/polymer-${2}/polymer-${2}.html">
+<link rel="import" href="${1:bower_components}/core-${2}/core-${2}.html">
 ```
 
-### [ipu] import polymer-ui-element
+### [hip] html import polymer-ui-element
 
 ```html
 <link rel="import" href="${1:bower_components}/polymer-ui-${2}/polymer-ui-${2}.html">
