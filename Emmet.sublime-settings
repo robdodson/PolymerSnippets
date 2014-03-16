@@ -7,7 +7,8 @@
        "sd": "/shadow-deep/ ${2:target} {\n\t|\n}",
        "ho": ":host$1",
        "an": ":ancestor($1)",
-       "pf": "polyfill-next-selector { content: '${1::host > .foo}'; }$0"
+       "pf": "polyfill-next-selector { content: '${1::host > .foo}'; }$0",
+       "cn": "${1:content} /content/ ${2:target} {\n\t|\n}"
      }
     }
   }
