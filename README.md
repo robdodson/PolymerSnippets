@@ -101,6 +101,13 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 }
 ```
 
+### [cn] content /content/
+```css
+${1:content} /content/ ${2:target} {
+  $0
+}
+```
+
 ### [ho] :host
 ```css
 :host$0
