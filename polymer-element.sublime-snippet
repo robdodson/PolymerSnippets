@@ -11,7 +11,7 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 	</template>
 	<script>
 		Polymer('$2', {
-			
+			$5
 		});
 	</script>
 </polymer-element>
