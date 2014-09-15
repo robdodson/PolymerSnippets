@@ -3,11 +3,7 @@
 ${1:<link rel="import" href="../polymer/polymer.html">}
 <polymer-element name="${2}" attributes="${3}">
 	<template>
-		<style>
-			:host {
-				display: block;
-			}
-		</style>$4
+		<link rel="stylesheet" href="$2.css">$4
 	</template>
 	<script>
 		Polymer('$2', {
@@ -17,7 +13,7 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 </polymer-element>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>pe</tabTrigger>
+	<tabTrigger>pes</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 	<description>polymer element</description>
