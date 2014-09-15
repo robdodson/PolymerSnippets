@@ -45,16 +45,16 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 </polymer-element>
 ```
 
-### [hic] html import core-element
+### [hic] html import core-* element
 
 ```html
 <link rel="import" href="${1:bower_components}/core-${2}/core-${2}.html">
 ```
 
-### [hip] html import polymer-ui-element
+### [hip] html import paper-* element
 
 ```html
-<link rel="import" href="${1:bower_components}/polymer-ui-${2}/polymer-ui-${2}.html">
+<link rel="import" href="${1:bower_components}/paper-${2}/paper-${2}.html">
 ```
 
 ## Web Components
@@ -87,23 +87,23 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 });
 ```
 
-### [sh] /shadow/
+### [sh] ::shadow
 ```css
-/shadow/ ${2:target} {
+::shadow ${2:target} {
   $0
 }
 ```
 
-### [sd] /shadow-deep/
+### [sd] /deep/
 ```css
-/shadow-deep/ ${2:target} {
+/deep/ ${2:target} {
   $0
 }
 ```
 
-### [cn] content /content/
+### [cn] content::content
 ```css
-${1:content} /content/ ${2:target} {
+${1:content}::content ${2:target} {
   $0
 }
 ```
@@ -113,9 +113,9 @@ ${1:content} /content/ ${2:target} {
 :host$0
 ```
 
-### [an] :ancestor()
+### [hc] :host-context()
 ```css
-:ancestor($0)
+:host-context($0)
 ```
 
 ### [pf] polyfill-next-selector

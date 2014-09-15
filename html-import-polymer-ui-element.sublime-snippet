@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<link rel="import" href="${1:bower_components}/polymer-ui-${2}/polymer-ui-${2}.html">
+<link rel="import" href="${1:bower_components}/paper-${2}/paper-${2}.html">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>hip</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
-	<description>import polymer-ui-element</description>
+	<description>import paper-element</description>
 </snippet>
