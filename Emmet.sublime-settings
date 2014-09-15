@@ -3,12 +3,12 @@
   "snippets": {
     "css": {
      "snippets": {
-       "sh": "/shadow/ ${2:target} {\n\t|\n}",
-       "sd": "/shadow-deep/ ${2:target} {\n\t|\n}",
+       "sh": "/shadow/ ${2:target}",
+       "sd": "/shadow-deep/ ${2:target}",
        "ho": ":host$1",
        "an": ":ancestor($1)",
-       "pf": "polyfill-next-selector { content: '${1::host > .foo}'; }$0",
-       "cn": "${1:content} /content/ ${2:target} {\n\t|\n}"
+       "pf": "polyfill-next-selector { content: ':host ${1:.foo}'; }$0",
+       "cn": "${1:content} /content/ ${2:target}"
      }
     }
   }

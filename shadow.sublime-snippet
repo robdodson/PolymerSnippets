@@ -1,8 +1,6 @@
 <snippet>
 	<content><![CDATA[
-/shadow/ ${2:target} {
-  $0
-}
+/shadow/ ${2:target}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>sh</tabTrigger>
