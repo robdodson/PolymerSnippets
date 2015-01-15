@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<paper-item>$0</paper-item>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>paper-item</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

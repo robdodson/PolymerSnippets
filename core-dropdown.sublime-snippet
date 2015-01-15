@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<core-dropdown relatedTarget="{{\$.${1:trigger}}}">
+  <core-menu>
+    <core-item>Cut</core-item>
+    <core-item>Copy</core-item>
+    <core-item>Paste</core-item>
+  </core-menu>
+</core-dropdown>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>core-dropdown</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<core-collapse id="${1:collapse}">
+  Content goes here...
+</core-collapse>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>core-collapse</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
