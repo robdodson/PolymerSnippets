@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-<paper-fab icon="${1:add}"></paper-fab>
+<paper-toast text="${1:Your draft has been discarded.}">$0</paper-toast>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>paper-fab</tabTrigger>
+  <tabTrigger>paper-toast</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

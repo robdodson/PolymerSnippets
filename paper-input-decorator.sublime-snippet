@@ -1,9 +1,11 @@
 <snippet>
   <content><![CDATA[
-<paper-fab icon="${1:add}"></paper-fab>
+<paper-input-decorator${1: floatingLabel} label="${2:Your Name}">
+  $0
+</paper-input-decorator>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>paper-fab</tabTrigger>
+  <tabTrigger>paper-input-decorator</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>

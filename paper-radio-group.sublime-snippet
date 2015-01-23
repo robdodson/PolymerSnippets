@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<paper-radio-group selected="${1:small}">
+  <paper-radio-button name="${2:small}" label="${3:Small}"></paper-radio-button>
+  <paper-radio-button name="${4:medium}" label="${5:Medium}"></paper-radio-button>
+  <paper-radio-button name="${6:large}" label="${7:Large}"></paper-radio-button>
+</paper-radio-group>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>paper-radio-group</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

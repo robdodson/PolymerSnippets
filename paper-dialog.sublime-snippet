@@ -1,9 +1,11 @@
 <snippet>
   <content><![CDATA[
-<paper-fab icon="${1:add}"></paper-fab>
+<paper-dialog heading="${1:Dialog Title}">
+  $0
+</paper-dialog>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>paper-fab</tabTrigger>
+  <tabTrigger>paper-dialog</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>
