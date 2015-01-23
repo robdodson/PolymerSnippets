@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<core-xhr id="${1:xhr}"></core-xhr>
+<core-xhr id="$0"></core-xhr>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>core-xhr</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<core-list flex>
+<core-list data="{{${1:data}}}" flex>
   <template>
     <div class="row" layout horizontal center>
       <div>{{${0:model.name}}}</div>

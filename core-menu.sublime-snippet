@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-<core-menu selected="${0:0}">
-  <core-item label="$1"></core-item>
+<core-menu selected="${1:0}">
   <core-item label="$2"></core-item>
   <core-item label="$3"></core-item>
+  <core-item label="$4"></core-item>
 </core-menu>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

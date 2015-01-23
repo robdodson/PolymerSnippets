@@ -1,12 +1,11 @@
 <snippet>
 	<content><![CDATA[
-${1:<link rel="import" href="../polymer/polymer.html">}
-<polymer-element name="${2}" attributes="${3}">
+<polymer-element name="$1" attributes="$2">
 	<template>
-		<link rel="stylesheet" href="$2.css">$4
+		<link rel="stylesheet" href="$3.css">$4
 	</template>
 	<script>
-		Polymer('$2', {
+		Polymer({
 			$5
 		});
 	</script>

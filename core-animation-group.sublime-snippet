@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<core-animation-group type="${1:seq}">
+  <core-animation id="${2:fadeout}" duration="${3:500}">
+    <core-animation-keyframe>
+      <core-animation-prop name="${4:opacity}" value="${5:1}"></core-animation-prop>
+    </core-animation-keyframe>
+    <core-animation-keyframe>
+      <core-animation-prop name="${4:opacity}" value="${6:0}"></core-animation-prop>
+    </core-animation-keyframe>
+  </core-animation>
+</core-animation-group>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>core-animation-group</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

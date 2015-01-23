@@ -1,13 +1,12 @@
 <snippet>
 	<content><![CDATA[
-${1:<link rel="import" href="../polymer/polymer.html">}
-<polymer-element name="${2}" noscript attributes="${3}">
+<polymer-element name="$1" noscript attributes="$2">
 	<template>
 		<style>
 			:host {
 				display: block;
 			}
-		</style>$4
+		</style>$3
 	</template>
 </polymer-element>
 ]]></content>
