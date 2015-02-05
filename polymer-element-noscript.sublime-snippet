@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-${1:<link rel="import" href="../polymer/polymer.html">}
+${1:<link rel="import" href="../../bower_components/polymer/polymer.html">}
+
 <polymer-element name="${2}" noscript attributes="${3}">
 	<template>
 		<style>
