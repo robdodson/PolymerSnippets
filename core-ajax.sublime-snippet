@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 <core-ajax
-    auto
-    url="${1}"
-    handleAs="${2:json}"
-    on-core-response="{{${3:handleResponse}}}"></core-ajax>
+  ${1:auto}
+  url="${2}"
+  handleAs="${3:json}"
+  on-core-response="{{${4:handleResponse}}}"></core-ajax>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>core-ajax</tabTrigger>
