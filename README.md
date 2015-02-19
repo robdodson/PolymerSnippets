@@ -110,6 +110,52 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 });
 ```
 
+## HTML
+
+### [ph] HTML template with Web Components polyfill
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>${1}</title>
+  <meta name="description" content="${2}">
+
+  <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- Chrome / Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="black">
+  <link rel="icon" href="icon.png">
+
+  <!-- Safari / iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+
+  <!-- Web Components -->
+  <script>
+    if ('registerElement' in document
+    && 'createShadowRoot' in HTMLElement.prototype
+    && 'import' in document.createElement('link')
+    && 'content' in document.createElement('template')) {
+      // Native WC support. Do nothing
+    } else {
+      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+    }
+  </script>
+</head>
+<body unresolved>
+  $0
+</body>
+</html>
+```
+
+## CSS
+
 ### [sh] ::shadow
 ```css
 ::shadow ${2:target} {
