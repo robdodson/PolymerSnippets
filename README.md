@@ -8,6 +8,12 @@ It's pure awesomeness.
 
 If you don't use Package Control, you can download the package and put it manually inside your `Packages` directory. It should work but will not update automatically.
 
+## Elements
+
+Type the name of any `core-*` or `paper-*` element, then hit `tab` to auto complete. Ex:
+
+![Using snippets](https://cloud.githubusercontent.com/assets/1066253/6269412/dc3ea404-b807-11e4-92ba-72717956cc3f.gif)
+
 ## Polymer
 
 ### [pe] polymer element
