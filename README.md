@@ -23,18 +23,17 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 ### [pe] polymer element
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
-<polymer-element name="${2}" attributes="${3}">
+<polymer-element name="$1" attributes="$2">
   <template>
     <style>
       :host {
         display: block;
       }
-    </style>$4
+    </style>$3
   </template>
   <script>
-    Polymer('$2', {
-      
+    Polymer({
+      $4
     });
   </script>
 </polymer-element>
@@ -43,16 +42,36 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 ### [pen] polymer element noscript
 
 ```html
-${1:<link rel="import" href="../polymer/polymer.html">}
-<polymer-element name="${2}" noscript>
+<polymer-element name="$1" noscript attributes="$2">
   <template>
     <style>
       :host {
         display: block;
       }
-    </style>$4
+    </style>$3
   </template>
 </polymer-element>
+```
+
+### [pes] polymer element with external stylesheet
+
+```html
+<polymer-element name="$1" attributes="$2">
+  <template>
+    <link rel="stylesheet" href="$3.css">$4
+  </template>
+  <script>
+    Polymer({
+      $5
+    });
+  </script>
+</polymer-element>
+```
+
+### [hi] html import *(I use this one a lot)*
+
+```html
+<link rel="import" href="${1:bower_components}/${0}/${0}.html">
 ```
 
 ### [hic] html import core-* element
@@ -72,12 +91,6 @@ ${1:<link rel="import" href="../polymer/polymer.html">}
 ### [tm] template
 ```html
 <template$1>$0</template>
-```
-
-### [hi] html import
-
-```html
-<link rel="import" href="${0}">
 ```
 
 ### [ce] custom element
