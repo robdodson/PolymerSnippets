@@ -14,6 +14,10 @@ Type the name of any `core-*` or `paper-*` element, then hit `tab` to auto compl
 
 ![Using snippets](https://cloud.githubusercontent.com/assets/1066253/6269412/dc3ea404-b807-11e4-92ba-72717956cc3f.gif)
 
+OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search for a completion. Ex:
+
+![Fuzz auto complete](https://cloud.githubusercontent.com/assets/1066253/6269598/24eadc3a-b809-11e4-8c0b-2650cf98faf7.gif)
+
 ## Polymer
 
 ### [pe] polymer element
