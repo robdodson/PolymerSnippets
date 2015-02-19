@@ -1,0 +1,24 @@
+Polymer Snippets
+================
+
+A full set of Polymer, Web Components, and Material Design element snippets.
+
+
+Features:
+---------
+
+Snippets for common Polymer operations (creating a new element, creating an element with external stylesheets, importing custom elements, etc).
+
+ex: `pe` + tab
+
+Snippets for *all* Material Design elements
+
+ex: `paper-tabs` + tab
+
+Fuzzy search!
+
+ex: `cor` + ctrl + space
+
+Snippets for working with vanilla Web Components (define your own custom tag).
+
+ex: `ce` + tab
