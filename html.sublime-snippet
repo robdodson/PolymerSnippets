@@ -29,7 +29,7 @@
     && 'content' in document.createElement('template')) {
       // Native WC support. Do nothing
     } else {
-      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\\/script>');
     }
   </script>
 </head>
