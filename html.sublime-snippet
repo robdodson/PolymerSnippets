@@ -9,7 +9,7 @@
   <meta name="description" content="${2}">
 
   <!-- Mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 
   <!-- Chrome / Android -->
   <meta name="mobile-web-app-capable" content="yes">
