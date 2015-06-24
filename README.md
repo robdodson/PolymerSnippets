@@ -43,16 +43,17 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 ### [pes] polymer element with external stylesheet
 
 ```html
-<polymer-element name="$1" attributes="$2">
+<dom-module id="$1">
   <template>
-    <link rel="stylesheet" href="$3.css">$4
+    <link rel="import" type="css" href="$1.css">
+    $2
   </template>
   <script>
     Polymer({
-      $5
+      is: '$1'
     });
   </script>
-</polymer-element>
+</dom-module>
 ```
 
 ### [hi] html import *(I use this one a lot)*
