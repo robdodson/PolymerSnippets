@@ -12,11 +12,11 @@ If you don't use Package Control, you can download the package and put it manual
 
 Type the name of [any `iron-*` or `paper-*` element](https://elements.polymer-project.org), then hit `tab` to auto complete. Ex:
 
-![Using snippets](https://cloud.githubusercontent.com/assets/1066253/6269412/dc3ea404-b807-11e4-92ba-72717956cc3f.gif)
+![Using snippets](https://cloud.githubusercontent.com/assets/1066253/8323071/77f4173c-19f4-11e5-94d2-a22e3b3e526e.gif)
 
 OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search for a completion. Ex:
 
-![Fuzz auto complete](https://cloud.githubusercontent.com/assets/1066253/6269598/24eadc3a-b809-11e4-8c0b-2650cf98faf7.gif)
+![Fuzz auto complete](https://cloud.githubusercontent.com/assets/1066253/8323081/87cd9890-19f4-11e5-9005-bf627ab30ea5.gif)
 
 ## Polymer
 
