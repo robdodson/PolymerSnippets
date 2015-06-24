@@ -1,0 +1,9 @@
+PolymerSnippets 0.5.0 changelog
+
+NEW FEATURES
+
++ Support for Polymer 1.0!
+
++ Replaced core-* snippets with iron-* elements
+
++ Updated all iron-* and paper-* elements to the latest versions

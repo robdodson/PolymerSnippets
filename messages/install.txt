@@ -17,7 +17,7 @@ ex: `paper-tabs` + tab
 
 Fuzzy search!
 
-ex: `cor` + ctrl + space
+ex: `iron` + ctrl + space
 
 Snippets for working with vanilla Web Components (define your own custom tag).
 
