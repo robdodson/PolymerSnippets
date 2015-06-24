@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<paper-material elevation="{1:1}">
+<paper-material elevation="${1:1}">
   $0
 </paper-material>
 ]]></content>
