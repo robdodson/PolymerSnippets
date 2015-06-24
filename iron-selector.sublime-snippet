@@ -1,10 +1,11 @@
 <snippet>
   <content><![CDATA[
-<link rel="import" href="${1:bower_components}/iron-${2}/iron-${2}.html">
+<iron-selector selected="${1:0}">
+  $0
+</iron-selector>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>hii</tabTrigger>
+  <tabTrigger>iron-selector</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
-  <description>import iron-element</description>
 </snippet>

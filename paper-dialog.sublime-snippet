@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-<paper-dialog heading="${1:Dialog Title}">
+<paper-dialog>
+  <h2>${1:Dialog Title}</h2>
   $0
 </paper-dialog>
 ]]></content>

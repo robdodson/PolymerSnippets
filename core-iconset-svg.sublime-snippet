@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<core-iconset-svg id="$1" iconSize="${0:24}"></core-iconset-svg>
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>core-iconset-svg</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html</scope>
-</snippet>

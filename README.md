@@ -10,7 +10,7 @@ If you don't use Package Control, you can download the package and put it manual
 
 ## Elements
 
-Type the name of [any `core-*` or `paper-*` element](https://www.polymer-project.org/docs/elements/), then hit `tab` to auto complete. Ex:
+Type the name of [any `iron-*` or `paper-*` element](https://elements.polymer-project.org), then hit `tab` to auto complete. Ex:
 
 ![Using snippets](https://cloud.githubusercontent.com/assets/1066253/6269412/dc3ea404-b807-11e4-92ba-72717956cc3f.gif)
 
@@ -23,34 +23,21 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 ### [pe] polymer element
 
 ```html
-<polymer-element name="$1" attributes="$2">
+<dom-module id="$1">
   <template>
     <style>
       :host {
         display: block;
       }
-    </style>$3
+    </style>
+    $2
   </template>
   <script>
     Polymer({
-      $4
+      is: '$1'
     });
   </script>
-</polymer-element>
-```
-
-### [pen] polymer element noscript
-
-```html
-<polymer-element name="$1" noscript attributes="$2">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>$3
-  </template>
-</polymer-element>
+</dom-module>
 ```
 
 ### [pes] polymer element with external stylesheet
@@ -74,10 +61,10 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 <link rel="import" href="${1:bower_components}/${0}/${0}.html">
 ```
 
-### [hic] html import core-* element
+### [hii] html import iron-* element
 
 ```html
-<link rel="import" href="${1:bower_components}/core-${2}/core-${2}.html">
+<link rel="import" href="${1:bower_components}/iron-${2}/iron-${2}.html">
 ```
 
 ### [hip] html import paper-* element
@@ -88,7 +75,7 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 
 ## Web Components
 
-### [tm] template
+### [template] template
 ```html
 <template$1>$0</template>
 ```
@@ -153,48 +140,6 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 </body>
 </html>
 ```
-
-## CSS
-
-### [sh] ::shadow
-```css
-::shadow ${2:target} {
-  $0
-}
-```
-
-### [sd] /deep/
-```css
-/deep/ ${2:target} {
-  $0
-}
-```
-
-### [cn] content::content
-```css
-${1:content}::content ${2:target} {
-  $0
-}
-```
-
-### [ho] :host
-```css
-:host$0
-```
-
-### [hc] :host-context()
-```css
-:host-context($0)
-```
-
-### [pf] polyfill-next-selector
-```css
-polyfill-next-selector { content: '${1::host > .foo}'; }$0
-```
-
-## What about Emmet?
-
-In order to play nice with Emmet I've included a `Emmet.sublime-settings` file which will enable the use of Shadow DOM CSS selectors. If this causes weirdness please file an issue.
 
 ## Contributing
 

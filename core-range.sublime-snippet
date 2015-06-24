@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<core-range min="${1:0}" max="${2:200}" value="${3:100}" ratio="{{${4:ratio}}}"></core-range>
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>core-range</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html</scope>
-</snippet>

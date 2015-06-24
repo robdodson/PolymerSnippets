@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<paper-scroll-header-panel ${1:condenses} class="flex">
+  <paper-toolbar>
+    <div>${2:My App}</div>
+  </paper-toolbar>
+  <div>${3:Page content}</div>
+</paper-scroll-header-panel>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>paper-scroll-header-panel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

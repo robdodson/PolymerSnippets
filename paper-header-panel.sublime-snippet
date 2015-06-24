@@ -1,10 +1,12 @@
 <snippet>
   <content><![CDATA[
-<link rel="import" href="${1:bower_components}/iron-${2}/iron-${2}.html">
+<paper-header-panel class="flex">
+  <paper-toolbar>${1}</paper-toolbar>
+  <div>$0</div>
+</paper-header-panel>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>hii</tabTrigger>
+  <tabTrigger>paper-header-panel</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
-  <description>import iron-element</description>
 </snippet>

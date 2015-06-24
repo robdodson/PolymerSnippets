@@ -1,10 +1,11 @@
 <snippet>
   <content><![CDATA[
-<link rel="import" href="${1:bower_components}/iron-${2}/iron-${2}.html">
+<form is="iron-form" id="${1:form}" method="${2:post}" action="${3:/form/handler}">
+  $0
+</form>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>hii</tabTrigger>
+  <tabTrigger>iron-form</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
-  <description>import iron-element</description>
 </snippet>

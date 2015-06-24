@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<paper-drawer-panel>
+  <paper-header-panel drawer>
+    <paper-toolbar>${1:Menu}</paper-toolbar>
+    $0
+  </paper-header-panel>
+  <paper-header-panel main>
+    <paper-toolbar>
+      <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+      <div class="flex">${2:My App}</div>
+    </paper-toolbar>
+  </paper-header-panel>
+</paper-drawer-panel>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>paper-drawer-panel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

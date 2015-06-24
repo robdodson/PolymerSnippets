@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<core-animation-prop name="${1:opacity}" value="${2:1}"></core-animation-prop>
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>core-animation-prop</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html</scope>
-</snippet>
