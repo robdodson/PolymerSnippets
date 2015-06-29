@@ -24,12 +24,12 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 
 ```html
 <dom-module id="$1">
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
   <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
     $2
   </template>
   <script>
@@ -44,8 +44,8 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 
 ```html
 <dom-module id="$1">
+  <link rel="import" type="css" href="$1.css">
   <template>
-    <link rel="import" type="css" href="$1.css">
     $2
   </template>
   <script>
