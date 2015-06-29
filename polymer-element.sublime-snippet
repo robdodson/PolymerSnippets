@@ -1,12 +1,11 @@
 <snippet>
   <content><![CDATA[
 <dom-module id="$1">
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
   <template>
     $2
   </template>

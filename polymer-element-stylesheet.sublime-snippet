@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
 <dom-module id="$1">
+  <link rel="import" type="css" href="$1.css">
   <template>
-    <link rel="import" type="css" href="$1.css">
     $2
   </template>
   <script>
