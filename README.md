@@ -112,7 +112,7 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
   <meta name="description" content="${2}">
 
   <!-- Mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 
   <!-- Chrome / Android -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -125,16 +125,7 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 
   <!-- Web Components -->
-  <script>
-    if ('registerElement' in document
-    && 'createShadowRoot' in HTMLElement.prototype
-    && 'import' in document.createElement('link')
-    && 'content' in document.createElement('template')) {
-      // Native WC support. Do nothing
-    } else {
-      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
-    }
-  </script>
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 </head>
 <body unresolved>
   $0
