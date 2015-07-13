@@ -1,21 +1,21 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 var ${4:tmpl} = document.querySelector('${5:template}');
 
 var ${1:WidgetProto} = Object.create(HTMLElement.prototype);
 
 ${1:WidgetProto}.createdCallback = function() {
-  var root = this.createShadowRoot();
-  root.appendChild(document.importNode(${4:tmpl}.content, true));
+	var root = this.createShadowRoot();
+	root.appendChild(document.importNode(${4:tmpl}.content, true));
 };
 
 var ${2:Widget} = document.registerElement('${3:my-widget}', {
-  prototype: ${1:WidgetProto}
+	prototype: ${1:WidgetProto}
 });
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>ce</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
-  <descript>register custom element</descript>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ce</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<descript>register custom element</descript>
 </snippet>

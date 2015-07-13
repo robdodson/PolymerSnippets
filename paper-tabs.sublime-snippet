@@ -1,13 +1,13 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <paper-tabs selected="${1:0}">
-  <paper-tab>${2:TAB 1}</paper-tab>
-  <paper-tab>${3:TAB 2}</paper-tab>
-  <paper-tab>${4:TAB 3}</paper-tab>
+	<paper-tab>${2:TAB 1}</paper-tab>
+	<paper-tab>${3:TAB 2}</paper-tab>
+	<paper-tab>${4:TAB 3}</paper-tab>
 </paper-tabs>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>paper-tabs</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>paper-tabs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
 </snippet>

@@ -1,14 +1,14 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <paper-dialog>
-  <h2>${1:Dialog Title}</h2>
-  <paper-dialog-scrollable>
-    $0
-  </paper-dialog-scrollable>
+	<h2>${1:Dialog Title}</h2>
+	<paper-dialog-scrollable>
+		$0
+	</paper-dialog-scrollable>
 </paper-dialog>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>paper-dialog</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>paper-dialog</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
 </snippet>

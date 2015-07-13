@@ -1,20 +1,20 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <dom-module id="$1">
-  <link rel="import" type="css" href="$1.css">
-  <template>
-    $2
-  </template>
-  <script>
-    Polymer({
-      is: '$1'
-    });
-  </script>
+	<link rel="import" type="css" href="$1.css">
+	<template>
+		$2
+	</template>
+	<script>
+		Polymer({
+			is: '$1'
+		});
+	</script>
 </dom-module>
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>pes</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html</scope>
-  <description>polymer element, external styles</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>polymer element, external styles</description>
 </snippet>
