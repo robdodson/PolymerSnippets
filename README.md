@@ -24,19 +24,19 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 
 ```html
 <dom-module id="$1">
-  <style>
-    :host {
-      display: block;
-    }
-  </style>
-  <template>
-    $2
-  </template>
-  <script>
-    Polymer({
-      is: '$1'
-    });
-  </script>
+	<style>
+		:host {
+			display: block;
+		}
+	</style>
+	<template>
+		$2
+	</template>
+	<script>
+		Polymer({
+			is: '$1'
+		});
+	</script>
 </dom-module>
 ```
 
@@ -44,15 +44,15 @@ OR, start typing the prefix for an element and hit `ctrl+space` to fuzzy search 
 
 ```html
 <dom-module id="$1">
-  <link rel="import" type="css" href="$1.css">
-  <template>
-    $2
-  </template>
-  <script>
-    Polymer({
-      is: '$1'
-    });
-  </script>
+	<link rel="import" type="css" href="$1.css">
+	<template>
+		$2
+	</template>
+	<script>
+		Polymer({
+			is: '$1'
+		});
+	</script>
 </dom-module>
 ```
 
@@ -89,12 +89,12 @@ var ${4:tmpl} = document.querySelector('${5:template}');
 var ${1:WidgetProto} = Object.create(HTMLElement.prototype);
 
 ${1:WidgetProto}.createdCallback = function() {
-  var root = this.createShadowRoot();
-  root.appendChild(document.importNode(${4:tmpl}.content, true));
+	var root = this.createShadowRoot();
+	root.appendChild(document.importNode(${4:tmpl}.content, true));
 };
 
 var ${2:Widget} = document.registerElement('${3:my-widget}', {
-  prototype: ${1:WidgetProto}
+	prototype: ${1:WidgetProto}
 });
 ```
 
@@ -106,29 +106,29 @@ var ${2:Widget} = document.registerElement('${3:my-widget}', {
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 
-  <title>${1}</title>
-  <meta name="description" content="${2}">
+	<title>${1}</title>
+	<meta name="description" content="${2}">
 
-  <!-- Mobile -->
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	<!-- Mobile -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 
-  <!-- Chrome / Android -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="theme-color" content="black">
-  <link rel="icon" href="icon.png">
+	<!-- Chrome / Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="black">
+	<link rel="icon" href="icon.png">
 
-  <!-- Safari / iOS -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+	<!-- Safari / iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
 
-  <!-- Web Components -->
-  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+	<!-- Web Components -->
+	<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 </head>
 <body unresolved>
-  $0
+	$0
 </body>
 </html>
 ```

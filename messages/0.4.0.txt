@@ -4,18 +4,18 @@ NEW FEATURES
 
 + Added support for all core-* and paper-* elements
 
-  Type the full element name to trigger a snippet. Ex:
+	Type the full element name to trigger a snippet. Ex:
 
-  `core-animated-pages` (followed by tab) will output
+	`core-animated-pages` (followed by tab) will output
 
-  <core-animated-pages selected="0" transitions="">
-    <section></section>
-    <section></section>
-    <section></section>
-  </core-animated-pages>
+	<core-animated-pages selected="0" transitions="">
+		<section></section>
+		<section></section>
+		<section></section>
+	</core-animated-pages>
 
 + Added support for fuzzy search
 
-  Start typing an element's name and press ctrl+space to
-  bring up a fuzzy search dialog. Try typing `cor` and hit
-  ctrl+space to give it a spin!
+	Start typing an element's name and press ctrl+space to
+	bring up a fuzzy search dialog. Try typing `cor` and hit
+	ctrl+space to give it a spin!
