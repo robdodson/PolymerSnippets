@@ -1,0 +1,5 @@
+PolymerSnippets 0.5.3 changelog
+
+NEW FEATURES
+
++ Add support for tabs (PR-15)
