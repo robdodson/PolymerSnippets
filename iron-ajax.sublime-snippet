@@ -4,7 +4,7 @@
  	${1:auto}
  	url="${2}"
  	handle-as="${3:json}"
- 	on-response="{{${4:handleResponse}}}"></iron-ajax>
+ 	on-response="${4:handleResponse}"></iron-ajax>
 ]]></content>
  	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
  	<tabTrigger>iron-ajax</tabTrigger>
