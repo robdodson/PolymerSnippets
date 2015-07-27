@@ -1,0 +1,5 @@
+PolymerSnippets 0.5.3 changelog
+
+BUG FIXES
+
++ General bug fixes for incorrect or missing attributes
