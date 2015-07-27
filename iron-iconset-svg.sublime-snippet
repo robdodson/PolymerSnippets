@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<iron-iconset-svg id="$1" iconSize="${0:24}">
+<iron-iconset-svg name="${1:my-icons}" size="${0:24}">
 	$0
 </iron-iconset-svg>
 ]]></content>
