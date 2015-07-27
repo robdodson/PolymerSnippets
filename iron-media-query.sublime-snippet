@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<iron-media-query query="${1:min-width: 640px}" queryMatches="{{${2:largeScreen}}}">
+<iron-media-query query="${1:min-width: 640px}" query-matches="{{${2:largeScreen}}}">
 </iron-media-query>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
