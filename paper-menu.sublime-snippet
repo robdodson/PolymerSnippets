@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 <paper-menu${1: multi}>
-	<paper-item>Item 1</paper-item>
-	<paper-item>Item 2</paper-item>
+	<paper-item>${2:Item 1}</paper-item>
+	<paper-item>${3:Item 2}</paper-item>
 </paper-menu>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
