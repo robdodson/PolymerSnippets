@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<link rel="import" href="$1/polymer/polymer.html">
+
+<dom-module id="$2">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+		</style>
+		$3
+	</template>
+	<script>
+		(function() {
+			'use strict';
+	      
+			Polymer({
+				is: '$2'
+			});
+		})();
+	</script>
+</dom-module>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pefs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>polymer element full strict</description>
+</snippet>
