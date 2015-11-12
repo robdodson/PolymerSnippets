@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<array-selector id="${1:selector}" 
+	items="{{${2:array}}}" selected="{{${3:selected}}}" 
+	${4:multi} ${5:toggle}>
+</array-selector>
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>arrsel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Array selector</description>
+</snippet>
