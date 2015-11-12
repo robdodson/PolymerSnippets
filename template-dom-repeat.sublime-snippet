@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<template is="dom-repeat" items={{${1:array}}} 
+	as={{${2:item}}} index-as={{${3:index}}}
+	filter="${4:isHandler}" sort="${5:sortHandler}" observe="${6:itemField1 itemField2}">
+	<!-- {{${2:item}}} and {{${3:index}}} can be used in this binding scope -->
+	$0
+</template>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>domr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Template "dom-repeat"</description>
+</snippet>
