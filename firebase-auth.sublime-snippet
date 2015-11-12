@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<firebase-auth 
+	id="${1:firebaseAuth}" 
+	user="{{${2:user}}}"
+	status-known="{{${3:statusKnown}}}" 
+	location="https://${4:<YOUR-FIREBASE-APP>}.firebaseio.com" 
+	provider="{{${5:provider}}}" 
+	on-error="${6:errorHandler}" 
+	on-user-created="${7:userSuccessHandler}" 
+	on-password-changed="${7:userSuccessHandler}" 
+	on-password-reset="${7:userSuccessHandler}" 
+	on-user-removed="${7:userSuccessHandler}">
+</firebase-auth>
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fba</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Element for Firebase authentication API</description>
+</snippet>
