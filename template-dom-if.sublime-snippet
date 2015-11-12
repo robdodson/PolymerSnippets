@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<template is="dom-if" if={{${1:isEnabled}}}>
+	$0
+</template>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>domi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Template "dom-if"</description>
+</snippet>
