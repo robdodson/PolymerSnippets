@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<template is="dom-repeat" id="${1:myId}" items={{${2:array}}} 
+<template is="dom-repeat" items={{${2:array}}} 
 	as={{${3:item}}} index-as={{${4:index}}}
 	filter="${5:isHandler}" sort="${6:sortHandler}" observe="${7:itemField1 itemField2}">
 	<!-- {{${3:item}}} and {{${4:index}}} can be used in this binding scope -->
@@ -8,7 +8,7 @@
 </template>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tpldr</tabTrigger>
+	<tabTrigger>domr</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 	<description>Template "dom-repeat"</description>
