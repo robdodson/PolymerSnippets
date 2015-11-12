@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<template is="dom-if" if={{${2:isEnabled}}}>
+<template is="dom-if" if={{${1:isEnabled}}}>
 	$0
 </template>
 ]]></content>
