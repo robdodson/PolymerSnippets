@@ -3,8 +3,7 @@
 <paper-tooltip
   for="$1"
   position="${2:bottom}"
-  offset="${3:14}"
-  >
+  offset="${3:14}">
   $0
 </paper-tooltip>
 ]]></content>
