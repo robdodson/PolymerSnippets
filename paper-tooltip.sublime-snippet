@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<paper-tooltip
+  for="$1"
+  position="${2:bottom}"
+  offset="${3:14}">
+  $0
+</paper-tooltip>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>paper-tooltip</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>Paper Tooltip element</description>
+</snippet>
