@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <template is="dom-repeat" items={{${1:array}}} 
-	as={{${2:item}}} index-as={{${3:index}}}
+	as=${2:item} index-as=${3:index}
 	filter="${4:isHandler}" sort="${5:sortHandler}" observe="${6:itemField1 itemField2}">
 	<!-- {{${2:item}}} and {{${3:index}}} can be used in this binding scope -->
 	$0
