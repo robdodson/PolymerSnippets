@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * A comment describing this behavior...
+ * @polymerBehavior $1
+ */
+<script>
+	$1 = {
+
+	};
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>polymer behavior</description>
+</snippet>
