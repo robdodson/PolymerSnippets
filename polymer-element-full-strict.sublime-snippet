@@ -1,12 +1,23 @@
 <snippet>
 	<content><![CDATA[
 <link rel="import" href="$1/polymer/polymer.html">
-/**
- * A comment describing this element...
- * @group my-element-set
- * @element $1
- * @demo demo/index.html
- */
+
+<!--
+A comment describing this element
+
+Example:
+
+    <my-elem></my-elem>
+
+Example:
+
+    <my-elem>
+      <h2>Hello my-elem</h2>
+    </my-elem>
+
+@demo demo/index.html
+-->
+
 <dom-module id="$1">
 	<template>
 		<style>
