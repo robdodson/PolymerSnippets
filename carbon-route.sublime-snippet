@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<carbon-route route="{{${1:route}}}" pattern="/:${2:page}" data="{{${3:data}}}" tail="{{${4:tail}}}"></carbon-route>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carbon-route</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
