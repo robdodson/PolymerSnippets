@@ -18,21 +18,21 @@ Example:
 @demo demo/index.html
 -->
 
-<dom-module id="$1">
+<dom-module id="$2">
 	<template>
 		<style>
 			:host {
 				display: block;
 			}
 		</style>
-		$4
+		$0
 	</template>
 	<script>
 		(function() {
 			'use strict';
 
 			Polymer({
-				is: '$1'
+				is: '$2'
 			});
 		})();
 	</script>

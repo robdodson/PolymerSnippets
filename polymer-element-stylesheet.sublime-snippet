@@ -1,5 +1,7 @@
 <snippet>
 	<content><![CDATA[
+<link rel="import" href="$1/polymer/polymer.html">
+
 <!--
 A comment describing this element.
 
@@ -16,14 +18,14 @@ Example:
 @demo demo/index.html
 -->
 
-<dom-module id="$1">
-	<link rel="import" type="css" href="$1.css">
+<dom-module id="$2">
+	<link rel="import" type="css" href="$3.css">
 	<template>
-		$4
+		$0
 	</template>
 	<script>
 		Polymer({
-			is: '$1'
+			is: '$2'
 		});
 	</script>
 </dom-module>
